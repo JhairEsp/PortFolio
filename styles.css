@@ -360,9 +360,10 @@ body {
   box-shadow: 0 20px 60px rgba(139, 92, 246, 0.4);
 }
 
+/* Scroll indicator moved down */
 .scroll-indicator {
-  position: absolute;
-  bottom: 2rem;
+  position: fixed;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -370,6 +371,7 @@ body {
   align-items: center;
   gap: 1rem;
   animation: bounce 2s infinite;
+  z-index: 10;
 }
 
 .mouse {
