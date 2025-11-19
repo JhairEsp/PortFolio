@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhair Espinoza | Ingeniero de Sistemas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <canvas id="particleCanvas"></canvas>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">JE</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Inicio</a>
+                <a href="#about" class="nav-link">Sobre Mí</a>
+                <a href="#experience" class="nav-link">Experiencia</a>
+                <a href="#projects" class="nav-link">Proyectos</a>
+                <a href="#skills" class="nav-link">Habilidades</a>
+                <a href="#contact" class="nav-link">Contacto</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">Hola, soy</div>
+                <h1 class="hero-name">
+                    <span class="name-letter">J</span>
+                    <span class="name-letter">h</span>
+                    <span class="name-letter">a</span>
+                    <span class="name-letter">i</span>
+                    <span class="name-letter">r</span>
+                    <span class="name-space"></span>
+                    <span class="name-letter">E</span>
+                    <span class="name-letter">s</span>
+                    <span class="name-letter">p</span>
+                    <span class="name-letter">i</span>
+                    <span class="name-letter">n</span>
+                    <span class="name-letter">o</span>
+                    <span class="name-letter">z</span>
+                    <span class="name-letter">a</span>
+                </h1>
+                <div class="hero-title">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Estudiante de Ingeniería de Sistemas e Informática apasionado por la tecnología y la innovación.
+                    Especializado en análisis de sistemas, desarrollo móvil y soluciones empresariales.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Ver Proyectos</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Contactar</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-3d">
+<div class="card-face card-front" style="width: 100%; height: 100%; overflow: hidden;">
+    <img src="FotoCV.jpg" class="profile-avatar" 
+         style="width: 100%; height: 100%; object-fit: cover; display: block; border-radius: 0;">
+</div>
+
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conóceme</span>
+                <h2 class="section-title">Sobre Mí</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Soy estudiante de Ingeniería de Sistemas e Informática, apasionado por la tecnología y la innovación. 
+                        Destaco por mis habilidades comunicativas, pensamiento analítico y capacidad para trabajar en equipo.
+                    </p>
+                    <p class="about-description">
+                        Poseo sólidos conocimientos en sistemas digitales, desde su diseño hasta su implementación, 
+                        y mi objetivo es aportar soluciones tecnológicas que impulsen la eficiencia y el crecimiento de las organizaciones.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Años de Experiencia</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Proyectos Completados</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Compromiso</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="cube-container">
+                        <div class="cube">
+                            <div class="cube-face front">
+                                <span>💻</span>
+                            </div>
+                            <div class="cube-face back">
+                                <span>🚀</span>
+                            </div>
+                            <div class="cube-face right">
+                                <span>⚡</span>
+                            </div>
+                            <div class="cube-face left">
+                                <span>🎯</span>
+                            </div>
+                            <div class="cube-face top">
+                                <span>✨</span>
+                            </div>
+                            <div class="cube-face bottom">
+                                <span>🔥</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mi Trayectoria</span>
+                <h2 class="section-title">Experiencia Laboral</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Junio 2025 – Actualidad</div>
+                        <h3 class="timeline-title">Analista de Sistemas</h3>
+                        <div class="timeline-company">Sanna</div>
+                        <ul class="timeline-description">
+                            <li>Gestión y resolución de incidencias críticas en sistemas de medicina</li>
+                            <li>Implementación y optimización de mejoras en procesos y producción</li>
+                            <li>Soporte a usuarios y análisis funcional de requerimientos técnicos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Enero 2025 – Junio 2025</div>
+                        <h3 class="timeline-title">Asistente de Sistemas</h3>
+                        <div class="timeline-company">FerreMas</div>
+                        <ul class="timeline-description">
+                            <li>Gestión de sistemas SAP y generación de reportes</li>
+                            <li>Mantenimiento y configuración básica en SAP</li>
+                            <li>Análisis y visualización de datos mediante Power BI</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Febrero 2023 – Agosto 2023</div>
+                        <h3 class="timeline-title">Desarrollador Móvil</h3>
+                        <div class="timeline-company">Valere Universe (GameGym)</div>
+                        <ul class="timeline-description">
+                            <li>Diseño y desarrollo de aplicación multiplataforma en Flutter</li>
+                            <li>Implementación de sistemas de progreso y desafíos personalizados</li>
+                            <li>Participación integral en el ciclo de desarrollo completo</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Julio 2022 – Febrero 2023</div>
+                        <h3 class="timeline-title">Soporte TI</h3>
+                        <div class="timeline-company">Target Outsourcing Marketing SAC</div>
+                        <ul class="timeline-description">
+                            <li>Diagnóstico y resolución de incidentes en hardware, software y redes</li>
+                            <li>Mantenimiento preventivo y monitoreo continuo de sistemas</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Marzo 2021 – Junio 2022</div>
+                        <h3 class="timeline-title">Soporte TI</h3>
+                        <div class="timeline-company">Velco S.A.C.</div>
+                        <ul class="timeline-description">
+                            <li>Asistencia técnica y resolución de incidencias</li>
+                            <li>Soporte en configuración de dispositivos y sistemas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mi Trabajo</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-btn">Ver Detalles</button>
+                        </div>
+                        <div class="project-icon">📱</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">GameGym App</h3>
+                        <p class="project-description">
+                            Aplicación móvil multiplataforma desarrollada en Flutter para entrenamiento 
+                            de habilidades cognitivas mediante juegos interactivos.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Mobile</span>
+                            <span class="tag">Gaming</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-btn">Ver Detalles</button>
+                        </div>
+                        <div class="project-icon">📊</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema SAP Analytics</h3>
+                        <p class="project-description">
+                            Dashboard de análisis y visualización de datos empresariales usando Power BI 
+                            integrado con sistemas SAP.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">SAP</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-btn">Ver Detalles</button>
+                        </div>
+                        <div class="project-icon">🏥</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema Médico</h3>
+                        <p class="project-description">
+                            Gestión y optimización de sistemas críticos de medicina, 
+                            asegurando continuidad operativa 24/7.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Healthcare</span>
+                            <span class="tag">Systems</span>
+                            <span class="tag">Critical</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="zoom-in">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <button class="project-btn">Ver Detalles</button>
+                        </div>
+                        <div class="project-icon">🌐</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Web Applications</h3>
+                        <p class="project-description">
+                            Desarrollo de aplicaciones web modernas usando React, Node.js y tecnologías 
+                            de vanguardia.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Web</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mis Capacidades</span>
+                <h2 class="section-title">Habilidades</h2>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">Habilidades Técnicas</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card" data-aos="flip-left">
+                            <div class="skill-icon">💻</div>
+                            <div class="skill-name">Java</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="flip-left">
+                            <div class="skill-icon">🐍</div>
+                            <div class="skill-name">Python</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="flip-left">
+                            <div class="skill-icon">⚛️</div>
+                            <div class="skill-name">React</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="flip-left">
+                            <div class="skill-icon">📱</div>
+                            <div class="skill-name">Flutter</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="flip-left">
+                            <div class="skill-icon">🗄️</div>
+                            <div class="skill-name">SQL</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="flip-left">
+                            <div class="skill-icon">📊</div>
+                            <div class="skill-name">Power BI</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="flip-left">
+                            <div class="skill-icon">🔧</div>
+                            <div class="skill-name">SAP</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-card" data-aos="flip-left">
+                            <div class="skill-icon">🌐</div>
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-level">
+                                <div class="skill-bar" style="--skill-width: 83%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Habilidades Blandas</h3>
+                    <div class="soft-skills">
+                        <div class="soft-skill" data-aos="fade-right">
+                            <span class="soft-skill-icon">🚀</span>
+                            <span class="soft-skill-name">Proactividad</span>
+                        </div>
+                        <div class="soft-skill" data-aos="fade-right">
+                            <span class="soft-skill-icon">🎯</span>
+                            <span class="soft-skill-name">Responsabilidad</span>
+                        </div>
+                        <div class="soft-skill" data-aos="fade-right">
+                            <span class="soft-skill-icon">💬</span>
+                            <span class="soft-skill-name">Comunicación</span>
+                        </div>
+                        <div class="soft-skill" data-aos="fade-right">
+                            <span class="soft-skill-icon">🤝</span>
+                            <span class="soft-skill-name">Trabajo en Equipo</span>
+                        </div>
+                        <div class="soft-skill" data-aos="fade-right">
+                            <span class="soft-skill-icon">⏰</span>
+                            <span class="soft-skill-name">Puntualidad</span>
+                        </div>
+                        <div class="soft-skill" data-aos="fade-right">
+                            <span class="soft-skill-icon">💡</span>
+                            <span class="soft-skill-name">Pensamiento Creativo</span>
+                        </div>
+                        <div class="soft-skill" data-aos="fade-right">
+                            <span class="soft-skill-icon">📚</span>
+                            <span class="soft-skill-name">Autoaprendizaje</span>
+                        </div>
+                        <div class="soft-skill" data-aos="fade-right">
+                            <span class="soft-skill-icon">🧘</span>
+                            <span class="soft-skill-name">Tolerancia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Hablemos</span>
+                <h2 class="section-title">Contacto</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card" data-aos="fade-up">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <a href="mailto:jairoswaldo@gmail.com">jairoswaldo@gmail.com</a>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up">
+                        <div class="contact-icon">📱</div>
+                        <h3>Teléfono</h3>
+                        <a href="tel:+51963079325">+51 963 079 325</a>
+                    </div>
+                    <div class="contact-card" data-aos="fade-up">
+                        <div class="contact-icon">📍</div>
+                        <h3>Ubicación</h3>
+                        <p>Lima, Comas - Perú</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Nombre</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Enviar Mensaje</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M18 2L9 11M18 2L12 18L9 11M18 2L2 8L9 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Jhair Espinoza</h3>
+                    <p>Ingeniero de Sistemas e Informática</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Jhair Espinoza. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
